@@ -1,0 +1,54 @@
+Preprocessing: 
+MYVERYEDUCATEDMOTHERJUSTSERVEDUSNINEPIZZAS
+Substitution: 
+FYXSSMEWNCOUSFMHMHGFKISMLEFWSFULGIPSQWZSTS
+Padding:
+F Y X S
+S M E W
+N C O U
+S F M H
+
+M H G F
+K I S M
+L E F W
+S F U L
+
+G I P S
+Q W Z S
+T S A A
+A A A A
+
+
+ShiftRows:
+F Y X S
+M E W S
+O U N C
+H S F M
+
+M H G F
+I S M K
+F W L E
+L S F U
+
+G I P S
+W Z S Q
+A A T S
+A A A A
+
+
+Parity:
+c6 59 d8 53
+4d c5 d7 53
+cf 55 4e c3
+48 53 c6 4d
+
+4d 48 47 c6
+c9 53 4d 4b
+c6 d7 cc c5
+cc 53 c6 55
+
+47 c9 50 53
+d7 5a 53 d1
+41 41 d4 53
+41 41 41 41
+
