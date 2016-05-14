@@ -1,0 +1,20 @@
+This program implements a Vigenere cipher. 
+
+It takes an input from input.txt. This input is an all-caps phrase to be encoded.
+The second input, key.txt, is a 16-letter all-caps key used to encode the phrase from input.txt
+
+It creates an output as output.txt. This file contains:
+
+1. Preprocessed version of the string.
+2. Substituted version of the string. 
+3. A padded version, since the cipher relies on characters arranged in 4x4 blocks.
+4. A version in which some rows have been rotated. Each row of a block is rotated different. See comments of code for details.
+
+This is the finalized form of the message. However, there is also:
+
+5. Parity: each character is converted to their decimal value with ord(), and that number is put into binary form. The number of 1s in that number is counted. If it is odd, another 1 is added to the front. The number is then converted to hex and stored, keeping the 4x4 format. This data is for ensuring that the message has not suffered loss.
+
+Example input.txt, key.txt, and output.txt are included. 
+Feel free to change the input and key files, but remember that their expected inputs are all-caps, special characters should not be used, and the key should be 16 characters long. 
+
+To run the program, use "python SecurityHW1.py" in your OS' command prompt from the directory holding the python file and two required input text files. 
